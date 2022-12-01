@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets//images/header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+.header h1{
+color: rgb(230, 247, 247);
+text-align: center;
+font-size: 5em;
+}
+.btn{
+    margin-top: 40px;
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+}
+.desc_container{
+    position: relative;
+    padding-top:20px ;
+    padding-bottom: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.descCard {
+    text-align: center;
+    max-width: 300px;
+}
+.descCard h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.descCard p{
+   opacity: 0.9;
+word-spacing: 5px;
+}
+.sellerContainer {
+    background-color: #f3edea;
+    padding-top: 20px;
+}
+
+.sellerContainer h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+ 
+}
+
+.viewAll{
+    color: #f3edea;
+    background: black;
+    font-size: 25px;
+}
+.viewAll:hover{
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.f{
+    flex-direction: column;
+    text-align: center;
+}
+.f h1{
+    margin: 20px min(20%);
+    font-size: 40px;
+    margin-bottom: 40px;
+    word-spacing: 3px;
+}
+.f p{
+    word-spacing: 5px;
+    font-size: 20px;
+    margin: 20px min(10%);
+    opacity: 0.9;
+}
+.footerContainer{
+
+    margin-top: 50px;
+    background: #161515;
+    height: 50vh;
+    color: white;
+display: flex; 
+align-items: center;
+justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+li{
+    list-style-type: none;
+
+}
+
+.footerCard{
+    position: relative;
+    word-spacing: 3px;
+    padding:20px
+
+    
+}
+.footerCard h2{
+    margin-bottom: 10px;
+  font-weight: 100;
+
+}
+.maker{
+    text-align: center;
+    color: white;
+    background:#161515;
+   padding-bottom:40px ;
+}

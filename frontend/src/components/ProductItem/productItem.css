@@ -1,0 +1,41 @@
+.cardContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+.productCard{
+margin-bottom: 160px;
+    height: 450px;
+    width: 350px;
+transition: all 0.4s ease-in;
+}
+
+.productCard img{
+    position: relative;
+    top: 10px;
+    height: 450px;
+    width: 300px;
+    margin-bottom: 20px;
+  
+}
+.productCard h3, .productCard p{
+    font-weight: 50;
+}
+
+
+.productItemBtn {
+    background-color: teal;
+ display: inline-block;
+    padding: 10px;
+   font-size: 20px;
+    position: relative;
+    top: 20px;
+    margin-right: 20px;
+}
+.productItemBtn:hover{
+    background-color: teal;
+    color :white;
+}
